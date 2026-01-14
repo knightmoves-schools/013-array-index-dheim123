@@ -4,7 +4,7 @@ public class Calendar
     public string[] Seasons = {"Summer", "Fall", "Winter", "Spring"};
 
     public string FindCurrentSeason(){
-        return "Seasons[1]";
+        return Seasons[1];
     }
 }
 
